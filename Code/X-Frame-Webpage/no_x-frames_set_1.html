@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description"
+    content="Project Type 1: Browser Security - X-Frames and how they protect against clickjacking.">
+  <meta name="authors" content="Michael Paglia, Rune Vannaken, Jacob Clouse">
+  <link rel="icon" href="./X_Frame_media_assets/favicon.svg">
+
+  <title>No X-Frame-Options set</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/starter-template.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Project Type 1: Browser Security - X-Frames</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav bar items -->
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Pages</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <!-- Put other test pages here -->
+            <a class="dropdown-item" href="index.html">Home Page</a>
+            <a class="dropdown-item" href="x-frames_set_2.html">X-Frames Set Page</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main" class="container">
+
+    <div class="starter-template">
+      <h2>Test - No X-Frames Set</h2>
+
+
+      <div class="d-flex flex-row">
+        <div class="d-flex flex-xl-row">
+
+          <div class="d-flex flex-column">
+            <div class="d-flex flex-md-column">Book 1</div>
+            <div class="d-flex flex-md-column">
+              <!-- X frame input below -->
+              <iframe src="./X_Frame_media_assets/babys_first_data_breach.jpeg" width="600" height="400" frameborder="0"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+        <div class="d-flex flex-xl-row">
+
+          <div class="d-flex flex-column">
+            <div class="d-flex flex-md-column">Book 2</div>
+            <div class="d-flex flex-md-column">
+              <!-- X frame input below -->
+              <iframe src="./X_Frame_media_assets/why_dad_got_an_rtx_4090.jpeg" width="600" height="400" frameborder="0"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+  </main><!-- /.container -->
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="./assets/js/vendor/popper.min.js"></script>
+  <script src="./dist/js/bootstrap.min.js"></script>
+
+
+  <!-- X frame source code below: -->
+  <script src="./X_Frame_javascript/X_frame_v1.js"></script>
+
+</body>
+
+</html>
