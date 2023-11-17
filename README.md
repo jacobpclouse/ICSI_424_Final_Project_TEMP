@@ -9,3 +9,5 @@ A temp repo to store our code and documentation for our x-frame final project un
 
 ## Resources used:
 - Example Bootstrap code for webpage: https://getbootstrap.com/docs/4.0/examples/
+- Bootstrap 4 cheat sheet: https://hackerthemes.com/bootstrap-cheatsheet/
+
