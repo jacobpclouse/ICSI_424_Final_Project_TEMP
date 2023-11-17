@@ -7,13 +7,16 @@
   <meta name="description"
     content="Project Type 1: Browser Security - X-Frames and how they protect against clickjacking.">
   <meta name="authors" content="Michael Paglia, Rune Vannaken, Jacob Clouse">
+  <!-- <link rel="icon" href="../../../../favicon.ico"> -->
   <link rel="icon" href="./X_Frame_media_assets/favicon.svg">
 
-  <title>No X-Frame-Options set</title>
+  <title>X-Frame-Options set</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/starter-template.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -37,6 +40,7 @@
             <a class="dropdown-item" href="index.html">Home Page</a>
             <a class="dropdown-item" href="no_x-frames_set_1.html">No X-Frames Page</a>
             <a class="dropdown-item" href="x-frames_set_2.html">X-Frames Set Page</a>
+
           </div>
         </li>
       </ul>
@@ -46,45 +50,32 @@
   <main role="main" class="container">
 
     <div class="starter-template">
-      <h2>Test - No X-Frames Set</h2>
+      <h2>Test - X-Frames Set #2</h2>
+
+      <!-- No X-Frame-Options set (default behavior) -->
+      <h3>No X-Frame-Options set (default behavior)</h3>
+      <iframe src="./X_Frame_media_assets/production_is_down.jpeg" width="600" height="400" title="No X-Frame-Options"></iframe>
 
 
-      <div class="d-flex flex-row">
-        <div class="d-flex flex-xl-row">
-
-          <div class="d-flex flex-column">
-            <div class="d-flex flex-md-column">Book 1</div>
-            <div class="d-flex flex-md-column">
-              <!-- X frame input below -->
-              <iframe src="./X_Frame_media_assets/babys_first_data_breach.jpeg" width="600" height="400" frameborder="0"
-                allowfullscreen></iframe>
-            </div>
-
-          </div>
+      <!-- X-Frame-Options: DENY -->
+      <h3>X-Frame-Options: DENY</h3>
+      <iframe src="./X_Frame_media_assets/production_is_down.jpeg" width="600" height="400" title="X-Frame-Options: DENY"
+        sandbox="allow-scripts allow-same-origin"></iframe>
 
 
-        </div>
+      <!-- X-Frame-Options: SAMEORIGIN -->
+      <h3>X-Frame-Options: SAMEORIGIN</h3>
+      <iframe src="./X_Frame_media_assets/production_is_down.jpeg" width="600" height="400" title="X-Frame-Options: SAMEORIGIN"
+        sandbox="allow-scripts"></iframe>
 
 
-
-        <div class="d-flex flex-xl-row">
-
-          <div class="d-flex flex-column">
-            <div class="d-flex flex-md-column">Book 2</div>
-            <div class="d-flex flex-md-column">
-              <!-- X frame input below -->
-              <iframe src="./X_Frame_media_assets/why_dad_got_an_rtx_4090.jpeg" width="600" height="400" frameborder="0"
-                allowfullscreen></iframe>
-            </div>
-
-          </div>
-
-        </div>
+      <!-- X-Frame-Options: ALLOW-FROM https://jacobpclouse.me -->
+      <h3>X-Frame-Options: ALLOW-FROM https://jacobpclouse.me</h3>
+      <iframe src="https://jacobpclouse.me/img/logo2.png" width="600" height="400"
+        title="X-Frame-Options: ALLOW-FROM https://jacobpclouse.me" sandbox="allow-scripts"
+        allow="https://jacobpclouse.me"></iframe>
 
 
-
-
-      </div>
 
   </main><!-- /.container -->
 
