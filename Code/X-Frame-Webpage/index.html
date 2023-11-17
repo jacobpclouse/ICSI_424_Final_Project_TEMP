@@ -6,7 +6,7 @@
     <meta name="description" content="Project Type 1: Browser Security - X-Frames and how they protect against clickjacking.">
     <meta name="authors" content="Michael Paglia, Rune Vannaken, Jacob Clouse">
     <!-- <link rel="icon" href="../../../../favicon.ico"> -->
-    <link rel="icon" href="./favicon.svg">
+    <link rel="icon" href="./X_Frame_media_assets/favicon.svg">
 
     <title>Project Type 1: Browser Security - X-Frames</title>
 
@@ -56,7 +56,23 @@
 
       <div class="starter-template">
         <h2>Project Type 1: Browser Security - X-Frames</h2>
-        <!-- <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p> -->
+        <!-- X frame input below -->
+        <iframe src="./X_Frame_media_assets/logo.jpeg" width="600" height="400" frameborder="0" allowfullscreen></iframe>
+        <p class="lead">Project Type 1: Browser Security - X-Frames and how they protect against clickjacking.</p>
+
+        <ul>
+          <li>
+            <bold>Browser Compatibility</bold> -- We're testing how different browsers handle X-Frame-Options. Will note unique approaches taken by browsers. We can create base cases for chromium based browsers and see how behavior differs between them. Checking if implementing X-Frame-Options messes with the user experience / slows down operations. 
+          </li>
+          <li>
+            <bold>Clickjacking Defense</bold> -- Check clickjacking attacks against browsers to see how each browser defeats it and which work better than others. I was thinking that we could look at the implimentation of each and guage which ones are more soundly implimented vs which ones are more likely to leak information. We could also look back and try to see if there were any recent security issues on each browser for xframes
+          </li>
+          <li>
+            <bold>Practical Tips</bold> -- Based on what we find, documenting practical tips for developers on how to use X-Frame-Options, what works and what doesn't. This will be written up in the form of a after action report.
+          </li>
+        </ul>
+      
+      
       </div>
 
     </main><!-- /.container -->
@@ -71,7 +87,7 @@
 
 
     <!-- X frame source code below: -->
-    <script src="./X_Frame_Test/X_frame_v1.js"></script>
+    <script src="./X_Frame_javascript/X_frame_v1.js"></script>
 
   </body>
 </html>
