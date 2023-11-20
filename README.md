@@ -13,3 +13,16 @@ A temp repo to store our code and documentation for our x-frame final project un
 - X frame example: https://youtu.be/odQMKq8QZ0k
 - Clickjacking Defense - OWASP Cheat Sheet Series: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html
 
+## Browser notes:
+- Chrome and Edge: ignore the now deprecated X-Frame-Options when Content-Security-Policy is sent
+- Safari for some reason will choose to prioritise the old X-Frame-Options. Moreover, Safari will itself consider the default X-Frame-Options: DENY.
+
+## Example:
+<http>
+    <!-- ... -->
+
+    <headers>
+        <frame-options
+        policy="SAMEORIGIN" />
+    </headers>
+</http>
