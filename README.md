@@ -6,6 +6,13 @@ A temp repo to store our code and documentation for our x-frame final project un
 - Rune Vannaken
 - Jacob Clouse
 
+## Run the test webserver:
+1) CD into the 'Code/X-Frame-Webpage' directory
+2) Run the python3 command: python -m http.server
+(if you have python2 and python3 installed, use the command: python3 -m http.server)
+3) In the target browser, go to the link: http://0.0.0.0:8000/
+4) Run your tests!
+
 
 ## Resources used:
 - Example Bootstrap code for webpage: https://getbootstrap.com/docs/4.0/examples/
