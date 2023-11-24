@@ -1,3 +1,3 @@
 // hello.js - install node js to run this
 
-console.log("Hello, World! I think i got this!");
+console.log("Xframe content policy has not been set for this page");
