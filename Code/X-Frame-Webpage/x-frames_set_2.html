@@ -9,13 +9,15 @@
   <meta name="authors" content="Michael Paglia, Rune Vannaken, Jacob Clouse">
   <link rel="icon" href="./X_Frame_media_assets/favicon.svg">
 
-  <title>No X-Frame-Options set</title>
+  <title>SAMEORIGIN X-Frame-Options set</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/starter-template.css" rel="stylesheet">
 
-
+  <!-- Set X-Frame-Options header to DENY or SAMEORIGIN -->
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <!-- <frame-options policy="SAMEORIGIN" /> -->
 
 </head>
 
@@ -38,7 +40,7 @@
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <!-- Put other test pages here -->
             <a class="dropdown-item" href="index.html">Home Page</a>
-            <a class="dropdown-item" href="x-frames_set_2.html">SAMEORIGIN X-Frames Set Page</a>
+            <a class="dropdown-item" href="no_x-frames_set_1.html">No X-Frames Page</a>
             <a class="dropdown-item" href="x-frames_set_3.html">DENY X-Frames Set Page</a>
           </div>
         </li>
@@ -50,7 +52,7 @@
 
     <div class="starter-template">
       <!-- Header to say what this page shows -->
-      <h2>Test - No X-Frames Set</h2>
+      <h2>SAMEORIGIN X-Frame-Options set</h2>
 
 
       <div class="d-flex flex-row mx-auto" >
@@ -61,8 +63,8 @@
             <div class="d-flex flex-md-column">Local Image from Same Site</div>
             <div class="d-flex flex-md-column">
               <!-- X frame input below - Same site-->
-              <iframe src="./X_Frame_media_assets/babys_first_data_breach.jpeg" width="100%" height="200" frameborder="0"
-                allowfullscreen></iframe>
+              <iframe src="./X_Frame_media_assets/babys_first_data_breach.jpeg" 
+              width="100%" height="200" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -74,8 +76,8 @@
             <div class="d-flex flex-md-column" >Image Served From My External Website</div>
             <div class="d-flex flex-md-column">
               <!-- X frame input below - External site -->
-              <iframe src="https://jacobpclouse.me/img/logo.png" width="100%" height="200" frameborder="1"
-                allowfullscreen></iframe>
+              <iframe src="https://jacobpclouse.me/img/logo.png" 
+              width="100%" height="200" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -88,7 +90,8 @@
             <div class="d-flex flex-md-column">Image Served From My Wikimedia Commons</div>
             <div class="d-flex flex-md-column">
               <!-- X frame input below - Wikimedia commons -->
-              <iframe src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Al_Sheedakim%2C_Hacker_and_Programmer.JPG/640px-Al_Sheedakim%2C_Hacker_and_Programmer.JPG" width="100%" height="200" frameborder="0"
+              <iframe src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Al_Sheedakim%2C_Hacker_and_Programmer.JPG/640px-Al_Sheedakim%2C_Hacker_and_Programmer.JPG" 
+              width="100%" height="200" frameborder="0"
                 allowfullscreen></iframe>
             </div>
           </div>
