@@ -1,6 +1,13 @@
 # ICSI_424_Final_Project_TEMP
 A temp repo to store our code and documentation for our x-frame final project until Amir creates one for us
 
+## TO DO:
+- [ ] need to set up servers for x frames exploits (testing of the headers, testing of the attacks)
+- [ ] expand from just iframes, use dom objects and features that are controlled by the x frame options
+- [ ] need to create and test selenium scripts for browsing the 4 web browsers
+- [ ] (OPTIONAL) need to create attack with headers on vs headers off and see how x frame options stops it
+- [ ] write everything up in the readme file as a report
+
 ## Authors:
 - Michael Paglia 
 - Rune Vannaken
