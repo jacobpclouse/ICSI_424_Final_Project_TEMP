@@ -27,6 +27,7 @@ A temp repo to store our code and documentation for our x-frame final project un
 - X frame example: https://youtu.be/odQMKq8QZ0k
 - Clickjacking Defense - OWASP Cheat Sheet Series: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html
 - Selenium IDE: https://www.selenium.dev/selenium-ide/
+- Writing first script: https://www.selenium.dev/documentation/webdriver/getting_started/first_script/
 
 
 ## Browser notes:
