@@ -26,6 +26,8 @@ A temp repo to store our code and documentation for our x-frame final project un
 - Bootstrap 4 cheat sheet: https://hackerthemes.com/bootstrap-cheatsheet/
 - X frame example: https://youtu.be/odQMKq8QZ0k
 - Clickjacking Defense - OWASP Cheat Sheet Series: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html
+- Selenium IDE: https://www.selenium.dev/selenium-ide/
+
 
 ## Browser notes:
 - Chrome and Edge: ignore the now deprecated X-Frame-Options when Content-Security-Policy is sent

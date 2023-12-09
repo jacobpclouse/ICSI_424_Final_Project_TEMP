@@ -1,0 +1,142 @@
+{
+  "id": "33ad2a70-15d5-4c8c-b44d-37278b1bdf5f",
+  "version": "2.0",
+  "name": "Firefox_X-FRAME_Test",
+  "url": "http://127.0.0.1:8000",
+  "tests": [{
+    "id": "4947e87d-7c16-42bb-bfe9-a4decd72a932",
+    "name": "Test1_noxframe",
+    "commands": [{
+      "id": "61858e5a-af54-444e-b0cd-1e284b4677c7",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a418644b-78fc-4ade-8d75-4563888cb8a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abca266c-ae0a-4b25-a684-625abfc3afcd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=No X-Frames Page",
+      "targets": [
+        ["linkText=No X-Frames Page", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'No X-Frames Page')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'no_x-frames_set_1.html')])[2]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a618c20d-0bc9-41bb-be89-2dc1b9d566cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c40fc0-46ae-426a-8b13-172e78ee70ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dd0a881-885c-4857-9069-8f6815d9a194",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3ad283c-8c11-4e3d-9b69-0a021f61596b",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d96daf9a-b3ac-4815-adbf-db7896e5c7d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DENY X-Frames Set Page",
+      "targets": [
+        ["linkText=DENY X-Frames Set Page", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//a[contains(text(),'DENY X-Frames Set Page')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'x-frames_set_3.html')])[2]", "xpath:href"],
+        ["xpath=//div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "77e74591-e868-4ff2-8b62-708b8584ee40",
+    "name": "Test2_Deny_xframe",
+    "commands": [{
+      "id": "5e4d5763-3d0f-4564-ae61-fd7a39a1468c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9036f9b-bb0c-4206-bfc2-e92d210de850",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee9023c0-012c-4c6f-9ba6-476788b1e01d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=DENY X-Frames Set Page",
+      "targets": [
+        ["linkText=DENY X-Frames Set Page", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//a[contains(text(),'DENY X-Frames Set Page')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'x-frames_set_3.html')])[2]", "xpath:href"],
+        ["xpath=//div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05c250c1-3780-4228-b0c1-282225e768aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bab87c18-c887-4f4c-9557-bb875fe78445",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4947e87d-7c16-42bb-bfe9-a4decd72a932"]
+  }],
+  "urls": ["http://127.0.0.1:8000/"],
+  "plugins": []
+}
