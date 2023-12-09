@@ -4,9 +4,9 @@ A temp repo to store our code and documentation for our x-frame final project un
         <img src="https://img.shields.io/github/contributors/jacobpclouse/526-Final-Project" /></a> -->
 
 ## TO DO:
-- [ ] need to set up servers for x frames exploits (testing of the headers, testing of the attacks)
-- [ ] expand from just iframes, use dom objects and features that are controlled by the x frame options
-- [ ] need to create and test selenium scripts for browsing the 4 web browsers
+- [x] need to set up servers for x frames exploits (testing of the headers, testing of the attacks) -- done with python server
+- [x] expand from just iframes, use dom objects and features that are controlled by the x frame options
+- [x] need to create and test selenium scripts for browsing the 4 web browsers
 - [ ] (OPTIONAL) need to create attack with headers on vs headers off and see how x frame options stops it
 - [ ] write everything up in the readme file as a report
 
@@ -23,6 +23,14 @@ A temp repo to store our code and documentation for our x-frame final project un
 4) Run your tests!
 
 
+## Run Tests:
+1) Create a virtual environment (use activateVirEnv.md to do this)
+2) pip install -m requirements.text
+3) Change directory into the Code/Selenium folder
+4) Run ```python v3_getLogs_multiBrowserl.py```
+5) Analyze your results from the text outputs, change browsers and see what changes
+
+
 ## Resources used:
 - Example Bootstrap code for webpage: https://getbootstrap.com/docs/4.0/examples/
 - Bootstrap 4 cheat sheet: https://hackerthemes.com/bootstrap-cheatsheet/
@@ -36,7 +44,7 @@ A temp repo to store our code and documentation for our x-frame final project un
 - Chrome and Edge: ignore the now deprecated X-Frame-Options when Content-Security-Policy is sent
 - Safari for some reason will choose to prioritise the old X-Frame-Options. Moreover, Safari will itself consider the default X-Frame-Options: DENY.
 
-## Example:
+## X Frame Example:
 <http>
     <!-- ... -->
 
