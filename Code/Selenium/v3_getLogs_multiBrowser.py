@@ -17,10 +17,10 @@ add function to store outputs with browsername_page_accesssed_logs - either text
 import datetime  # get datetime
 import os  # folder
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
 
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Functions
@@ -29,7 +29,6 @@ from selenium.webdriver.support import expected_conditions as EC
 # --- Function to print out our logo ---
 def printOurLogo():
     ourLogoBOI = [
-        " ___  ____ _           ______                     ___       _        ",
         "|  \\/  (_) |          | ___ \\                     |_  |     | |       ",
         "| .  . |_| | _____    | |_/ /   _ _ __   ___        | | __ _| | _____ ",
         "| |\\/| | | |/ / _ \\   |    / | | | '_ \\ / _ \\       | |/ _` | |/ / _ \\",
@@ -38,9 +37,10 @@ def printOurLogo():
         "                  |/                        |/                          "
     ]
 
-    print("Brought to you by:")
+    print("Create and Tested by:")
     for boi in ourLogoBOI:
         print(boi)
+    print("ICSI 424/524 Final Project -- Fall 2023")
 
 
 # --- Function to Defang date time ---
