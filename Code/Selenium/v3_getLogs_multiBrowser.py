@@ -134,10 +134,10 @@ def getLogsFunc(driverForBrowser, browserName, webpageURL, webpageName, parentDi
 # store all pages inside this dictionary
 # source: https://www.w3schools.com/python/python_dictionaries.asp
 weblinks = {
-    "Index": "http://127.0.0.1:8000/index.html",
-    "No-X-Frames": "http://127.0.0.1:8000/no_x-frames_set_1.html",
-    "SAMEORIGIN": "http://127.0.0.1:8000/x-frames_set_2.html",
-    "DENY": "http://127.0.0.1:8000/x-frames_set_3.html"
+    "1_INDEX": "http://127.0.0.1:8000/index.html",
+    "2_NO-X-FRAMES-SET": "http://127.0.0.1:8000/no_x-frames_set_1.html",
+    "3_SAMEORIGIN": "http://127.0.0.1:8000/x-frames_set_2.html",
+    "4_DENY": "http://127.0.0.1:8000/x-frames_set_3.html"
 }
 
 # webpages to use
