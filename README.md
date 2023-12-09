@@ -1,5 +1,7 @@
 # ICSI_424_Final_Project_TEMP
-A temp repo to store our code and documentation for our x-frame final project until Amir creates one for us
+A temp repo to store our code and documentation for our x-frame final project until Amir creates one for us  [![GitHub contributors](https://img.shields.io/github/contributors/jacobpclouse/526-Final-Project.svg)]("https://github.com/jacobpclouse/526-Final-Project/graphs/contributors")
+<!-- <a href="https://github.com/jacobpclouse/526-Final-Project/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/jacobpclouse/526-Final-Project" /></a> -->
 
 ## TO DO:
 - [ ] need to set up servers for x frames exploits (testing of the headers, testing of the attacks)
