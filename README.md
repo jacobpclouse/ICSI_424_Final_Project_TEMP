@@ -38,6 +38,9 @@ A temp repo to store our code and documentation for our x-frame final project un
 - Clickjacking Defense - OWASP Cheat Sheet Series: https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html
 - Selenium IDE: https://www.selenium.dev/selenium-ide/
 - Writing first script: https://www.selenium.dev/documentation/webdriver/getting_started/first_script/
+- Getting logs in firefox with selenium: https://stackoverflow.com/questions/23231931/getting-console-log-output-from-firefox-with-selenium
+- HTTP method not allowed when trying to capture console: https://stackoverflow.com/questions/62230582/http-method-not-allowed-when-trying-to-capture-console
+- Opera Driver releases: https://github.com/operasoftware/operachromiumdriver/releases
 
 
 ## Browser notes:

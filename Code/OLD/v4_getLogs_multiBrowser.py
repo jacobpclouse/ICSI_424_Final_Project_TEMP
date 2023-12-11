@@ -18,6 +18,7 @@ import datetime  # get datetime
 import os  # folder
 from selenium import webdriver # selenium imports
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities # firefox
 
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Functions
@@ -75,6 +76,7 @@ def getLogsFunc(driverForBrowser, browserName, webpageURL, webpageName, parentDi
 
     # setup driver
     driverCurrent = driverForBrowser
+    
 
     # create name of output file
     currentDatetime = defang_datetime()
@@ -104,10 +106,12 @@ def getLogsFunc(driverForBrowser, browserName, webpageURL, webpageName, parentDi
         appendToFile(outputFileName, "\n\n CONSOLE LOGS: \n", parentDir)
 
         if browserName.lower() == "firefox":
-            # For Firefox, use different method to get logs
-            logs = driverCurrent.get_log("moz:browser")
+            # with Firefox, use different method to get logs
+            print("Firefox logs... \n NOTE: get_log is not implemented by Firefox driver. See https://github.com/mozilla/geckodriver/issues/330")
+            logs = driverCurrent.get_log("browser")
+
         else:
-            # For Chrome and Edge
+            # for Chrome, Edge, 
             logs = driverCurrent.get_log("browser")
         # loop through logs
         for log_entry in logs:
@@ -119,10 +123,6 @@ def getLogsFunc(driverForBrowser, browserName, webpageURL, webpageName, parentDi
     except Exception as e:
         print(f"GETLOGS encountered an error: {e}")
 
-    # finally:
-    #     # close window after all
-    #     time.sleep(5)  # Adjust the delay as needed
-    #     driverForBrowser.quit()
 
 
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -138,10 +138,14 @@ weblinks = {
 }
 
 # webpages to use
+# need to put safari in here but had a check to make sure that it isn't used if the system is windows or linux
 browsers = {
-    "Chrome": webdriver.Chrome(),
-    "Firefox": webdriver.Firefox(),
-    "Edge": webdriver.Edge()
+    "Chrome": webdriver.Chrome(), # -- working
+    "Edge": webdriver.Edge(), # -- Working -- Windows Primarily, though you can install it on MacOS and Linux
+    # "Safari": webdriver.Safari(), # Mac OS only -- comment out if you don't have a mac
+    # "Opera": webdriver.Opera(), # not natively supported in selenium
+    # "Internet_Explorer": webdriver.Ie(), # windows only, lets see if this still works --  this hangs
+    "Firefox": webdriver.Firefox()
 }
 
 # create a directory: https://www.geeksforgeeks.org/create-a-directory-in-python/
@@ -152,11 +156,11 @@ os.mkdir(folderName)
 # loop through dict of web pages
 # source: https://www.w3schools.com/python/python_dictionaries_loop.asp
 for key, url in weblinks.items():
-    print(f"** Key: {key} with url: {url}")
+    print(f"** Key: {key} with url: {url}\n")
 
     # now loop through each browser for the output
     for browserName, driver in browsers.items():
-        print(f"==> Using Browser: {browserName} for webpage: {key}")
+        print(f"==> Using Browser: {browserName} for webpage: {key}\n")
         # do each browser test:
         getLogsFunc(driver, browserName, url, key, folderName)
 
