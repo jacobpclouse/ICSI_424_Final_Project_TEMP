@@ -1,7 +1,7 @@
 # ICSI_424_Final_Project_TEMP
 A temp repo to store our code and documentation for our x-frame final project until Amir creates one for us  [![GitHub contributors](https://img.shields.io/github/contributors/jacobpclouse/526-Final-Project.svg)]("https://github.com/jacobpclouse/526-Final-Project/graphs/contributors")
-<!-- <a href="https://github.com/jacobpclouse/526-Final-Project/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/jacobpclouse/526-Final-Project" /></a> -->
+
+> Link to the original Repo: https://github.com/jacobpclouse/ICSI_424_Final_Project_TEMP
 
 ## TO DO:
 - [x] need to set up servers for x frames exploits (testing of the headers, testing of the attacks) -- done with python server
@@ -27,7 +27,7 @@ A temp repo to store our code and documentation for our x-frame final project un
 1) Create a virtual environment (use activateVirEnv.md to do this)
 2) pip install -m requirements.text
 3) Change directory into the Code/Selenium folder
-4) Run ```python v3_getLogs_multiBrowserl.py```
+4) Run ```python getLogs.py```
 5) Analyze your results from the text outputs, change browsers and see what changes
 
 
@@ -56,3 +56,5 @@ A temp repo to store our code and documentation for our x-frame final project un
         policy="SAMEORIGIN" />
     </headers>
 </http>
+
+## Report Write Up:
