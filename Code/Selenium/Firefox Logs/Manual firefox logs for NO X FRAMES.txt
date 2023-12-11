@@ -1,0 +1,18 @@
+The Components object is deprecated. It will soon be removed. babys_first_data_breach.jpeg
+Xframe content policy has not been set for this page X_frame_v1.js:3:9
+The Components object is deprecated. It will soon be removed. no_x-frames_set_1.html
+Partitioned cookie or storage access was provided to “https://michaelpaglia.dev/” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+Partitioned cookie or storage access was provided to “https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Al_Sheedakim%2C_Hacker_and_Programmer.JPG/640px-Al_Sheedakim%2C_Hacker_and_Programmer.JPG” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+Partitioned cookie or storage access was provided to “https://jacobpclouse.me/img/logo.png” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+Partitioned cookie or storage access was provided to “https://jacobpclouse.me/” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+The Components object is deprecated. It will soon be removed. logo.png
+The Components object is deprecated. It will soon be removed. 640px-Al_Sheedakim,_Hacker_and_Programmer.JPG
+Partitioned cookie or storage access was provided to “http://frogfind.com/” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+GET
+https://michaelpaglia.dev/css/fonts/Lato/Lato-Regular.ttf
+[HTTP/1.1 404 Not Found 46ms]
+
+The Components object is deprecated. It will soon be removed. michaelpaglia.dev
+downloadable font: download failed (font-family: "Lato" style:normal weight:400 stretch:100 src index:0): status=2147746065 source: https://michaelpaglia.dev/css/fonts/Lato/Lato-Regular.ttf
+The Components object is deprecated. It will soon be removed. frogfind.com
+The Components object is deprecated. It will soon be removed. jacobpclouse.me

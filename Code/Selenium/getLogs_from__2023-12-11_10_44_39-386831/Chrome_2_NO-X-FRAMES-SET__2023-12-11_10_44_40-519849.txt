@@ -1,5 +1,0 @@
-** Page Title: No X-Frame-Options set **
-H1 Element 1 Text: Test - No X-Frames Set
-
-
- CONSOLE LOGS: 

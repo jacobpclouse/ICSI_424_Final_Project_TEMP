@@ -1,0 +1,24 @@
+Xframe content policy: SAMEORIGIN X_frame_SAMEORIGIN.js:3:9
+The Components object is deprecated. It will soon be removed. babys_first_data_breach.jpeg
+Partitioned cookie or storage access was provided to “https://michaelpaglia.dev/” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+Partitioned cookie or storage access was provided to “https://www.ualbanyonline.net/pluginfile.php/1/core_admin/logo/0x150/1651997071/logo_A2_black.png” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+The Components object is deprecated. It will soon be removed. x-frames_set_2.html
+The Components object is deprecated. It will soon be removed. logo_A2_black.png
+The Components object is deprecated. It will soon be removed. michaelpaglia.dev
+Partitioned cookie or storage access was provided to “https://jacobpclouse.me/” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+The Components object is deprecated. It will soon be removed. logo.png
+GET
+https://michaelpaglia.dev/css/fonts/Lato/Lato-Regular.ttf
+[HTTP/1.1 404 Not Found 12ms]
+
+Partitioned cookie or storage access was provided to “https://jacobpclouse.me/img/logo.png” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+downloadable font: download failed (font-family: "Lato" style:normal weight:400 stretch:100 src index:0): status=2147746065 source: https://michaelpaglia.dev/css/fonts/Lato/Lato-Regular.ttf
+GET
+https://jacobpclouse.me/img/CHANGEME.jpg
+[HTTP/2 404  23ms]
+
+The Components object is deprecated. It will soon be removed. jacobpclouse.me
+Cookie “__Host-GAPS” does not have a proper “SameSite” attribute value. Soon, cookies without the “SameSite” attribute or with an invalid value will be treated as “Lax”. This means that the cookie will no longer be sent in third-party contexts. If your application depends on this cookie being available in such contexts, please add the “SameSite=None“ attribute to it. To know more about the “SameSite“ attribute, read https://developer.mozilla.org/docs/Web/HTTP/Headers/Set-Cookie/SameSite ServiceLogin
+Content-Security-Policy warnings 6
+Partitioned cookie or storage access was provided to “https://www.google.com/gmail/about/” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+The Components object is deprecated. It will soon be removed. about

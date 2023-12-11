@@ -1,5 +1,0 @@
-** Page Title: Project Type 1: Browser Security - X-Frames **
-H1 Element 1 Text: Project Type 1: Browser Security - X-Frames and how they protect against clickjacking.
-
-
- CONSOLE LOGS: 

@@ -1,0 +1,38 @@
+Feature Policy: Skipping unsupported feature name “accelerometer”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “autoplay”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “clipboard-write”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “encrypted-media”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “gyroscope”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “picture-in-picture”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “accelerometer”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “autoplay”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “clipboard-write”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “encrypted-media”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “gyroscope”. x-frames_set_3.html
+Feature Policy: Skipping unsupported feature name “picture-in-picture”. x-frames_set_3.html
+The Components object is deprecated. It will soon be removed. babys_first_data_breach.jpeg
+PXframe content policy: DENY X_frame_DENY.js:3:9
+The Components object is deprecated. It will soon be removed. x-frames_set_3.html
+This error page has no error code in its security info aboutNetError.mjs:856:13
+Some cookies are misusing the recommended “SameSite“ attribute 6
+The loading of “https://twitter.com/ualbany/status/1732444527342854645” in a frame is denied by “X-Frame-Options“ directive set to “deny“. 1732444527342854645
+This error page has no error code in its security info 3 aboutNetError.mjs:856:13
+The loading of “https://www.usa.gov/themes/custom/usagov/images/Logo_USAGov.png” in a frame is denied by “X-Frame-Options“ directive set to “deny“. Logo_USAGov.png
+The loading of “https://mail.yahoo.com/” in a frame is denied by “X-Frame-Options“ directive set to “deny“. mail.yahoo.com
+Content-Security-Policy warnings 6
+Content-Security-Policy warnings 4
+Partitioned cookie or storage access was provided to “https://www.youtube.com/embed/dQw4w9WgXcQ” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+Partitioned cookie or storage access was provided to “https://www.google.com/gmail/about/” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+This error page has no error code in its security info 2 aboutNetError.mjs:856:13
+Some cookies are misusing the recommended “SameSite“ attribute 3
+Content-Security-Policy: The page’s settings observed the loading of a resource at data:text/plain;base64,Cg== (“default-src”). A CSP report is being sent. dQw4w9WgXcQ
+WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. base.js:11536:115
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at data:text/plain;base64,Cg==. (Reason: CORS request not http).
+The Components object is deprecated. It will soon be removed. about
+The Components object is deprecated. It will soon be removed. dQw4w9WgXcQ
+This error page has no error code in its security info aboutNetError.mjs:856:13
+The loading of “https://www.google.com/maps/place/University+at+Albany/@42.6835968,-73.8275515,14z/data=!4m6!3m5!1s0x89de0b3b15c5cb35:0xc7c3edbfb0809e9e!8m2!3d42.6850273!4d-73.8247903!16zL20vMDJkcThm?entry=tts” in a frame is denied by “X-Frame-Options“ directive set to “sameorigin“. data=!4m6!3m5!1s0x89de0b3b15c5cb35:0xc7c3edbfb0809e9e!8m2!3d42.6850273!4d-73.8247903!16zL20vMDJkcThm
+This error page has no error code in its security info aboutNetError.mjs:856:13
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://play.google.com/log?format=json&hasfast=true&authuser=0. (Reason: CORS request did not succeed). Status code: (null).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://play.google.com/log?format=json&hasfast=true&authuser=0. (Reason: CORS request did not succeed). Status code: (null).
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://play.google.com/log?format=json&hasfast=true&authuser=0. (Reason: CORS request did not succeed). Status code: (null). 2
