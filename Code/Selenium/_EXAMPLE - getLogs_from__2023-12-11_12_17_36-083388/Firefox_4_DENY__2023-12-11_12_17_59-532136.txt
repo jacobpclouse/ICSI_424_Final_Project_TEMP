@@ -1,0 +1,5 @@
+** Page Title: DENY X-Frame-Options set **
+H1 Element 1 Text: DENY X-Frame-Options set
+
+
+ CONSOLE LOGS: 

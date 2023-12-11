@@ -1,0 +1,6 @@
+** Page Title: SAMEORIGIN X-Frame-Options set **
+H1 Element 1 Text: SAMEORIGIN X-Frame-Options set
+
+
+ CONSOLE LOGS: 
+{'level': 'SEVERE', 'message': 'http://127.0.0.1:8000/x-frames_set_2.html 18 X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>.', 'source': 'security', 'timestamp': 1702315071573}
