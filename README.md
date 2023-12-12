@@ -25,7 +25,7 @@ A temp repo to store our code and documentation for our x-frame final project un
 
 ## Run Tests:
 1) Create a virtual environment (use activateVirEnv.md to do this)
-2) pip install -m requirements.text
+2) pip install -r requirements.txt
 3) Change directory into the Code/Selenium folder
 4) Run ```python getLogs.py```
 5) Analyze your results from the text outputs, change browsers and see what changes
